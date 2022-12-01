@@ -1,0 +1,56 @@
+/*Nous avons créer ce css car nous avions deux pays sur le continent européen
+afin que ce soit plus clair nous avons préféré le séparer des autre.*/
+
+
+
+.europe{
+    background-image: url(https://ecosl.en-prod.fr/wp-content/uploads/2020/09/fond-ecran-mer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#global
+{
+  margin:800px;
+  margin:auto;
+
+  
+}
+
+#corps
+{
+  padding:5px;
+}
+
+
+
+
+
+
+
+
+#general
+{
+  margin:400px;
+  margin:auto;
+  
+}
+
+#contenue
+{
+  padding:5px;
+}
+
+
+#entier{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#italie{
+    height: 320px;
+    width: 600px;
+    padding-top: 100px;
+}
