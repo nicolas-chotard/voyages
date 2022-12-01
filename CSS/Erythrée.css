@@ -1,0 +1,108 @@
+*{
+  margin : 0;
+}
+/*Header*/
+#wrap {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  z-index: 99;
+  position: relative;
+}
+.navigation {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+.navigation li {
+  height: auto;
+  width: 135.8px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+  padding: 0;
+  margin: 0;
+}
+.navigation a {
+  padding: 18px 0;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.navigation li:hover,
+a:hover {
+background-color: #444444;
+}
+.navigation li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.navigation li:hover ul {
+  display: block;
+}
+.navigation li ul li {
+  background-color: #444444;
+}
+.navigation li ul li a {
+  border-left: 1px solid #444444;
+  border-right: 1px solid #444444;
+  border-top: 1px solid #c9d4d8;
+  border-bottom: 1px solid #444444;
+}
+.navigation li ul li a:hover {
+  background-color: #a3a1a1;
+}
+/*image presentation*/
+.presentation{
+  width: 300px ;
+  height:200px;
+  opacity: 100%;
+}
+.zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.zoom :hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/*Fin header*/
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(https://img.ev.mu/images/attractions/964/960x640/14026.jpg);
+}
+/*presentation general*/
+.présentation-general{
+  border:2px solid black;
+  display: flex;
+  
+}
+.présentation-general img{
+  margin-left: auto;
+
+}
+/*presentation des paysages */
+.présentation-des-paysages, .présentation-des-côtes{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  margin: auto;
+}
+p{
+  font-size: 20px;
+}
+section{
+  border: 5px solid black;
+  background: white;
+  height:auto;
+  width: auto;
+  opacity: 80%;
+}
