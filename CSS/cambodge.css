@@ -1,0 +1,146 @@
+html {
+    background-image: url(https://images6.alphacoders.com/880/thumb-1920-880520.jpg);
+}
+
+
+#global {
+    margin:800px;
+    margin:auto;
+}
+
+#page {
+    border: 6px white solid;
+    background: oldlace;
+    opacity: 88%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 3600px;
+}
+#corps {
+    padding:10px;
+}
+
+  .àsavoir li {
+    display: inline;
+    padding: 40px; 
+    text-align: center;
+  }
+  .àsavoir2 li {
+    display: inline;
+    padding: 55px;
+    text-align:center;
+  }
+  h1, h3, .devise {
+    text-align: center;
+  }
+  #drapeau {
+    padding-left:400px;
+    height:144px;
+    width:225px;
+    opacity: 100%;
+    }
+    #carte {
+        width: 250px;
+        height: 250px;
+        border: 3px black solid;
+    }
+    #phnompenh {
+        height:250px;
+        width:400px;
+        border: 3px black solid;
+    }
+    #riel {
+        height:250px;
+        width:360px;
+        border: 3px black solid;
+    }
+    #angkor, #arbre {
+      width: 508px;
+      height: 330px;
+      border: 3px black solid;
+    }
+    #loklak {
+      width: 505px;
+      height: 330px;
+      border: 3px black solid;
+    }
+    #amok {
+      width: 505px;
+      height: 330px;
+      border: 3px black solid;
+    }
+  .loklak {
+    position: absolute;
+    left: 480px;
+    top: 2115px;
+    font-size: 20px;
+}
+.amok {
+  position: absolute;
+  left: 970px;
+  top: 2115px;
+  font-size: 20px;
+}
+#kampot {
+  width:480px;
+  height:300px;
+  border:3px black solid;
+}
+#poivre {
+  width:500px;
+  height:320px;
+  border:3px black solid;
+}
+#tonlésap {
+  width:515px;
+  height:320px;
+  border:3px black solid;
+}
+.poivre {
+  position: absolute;
+  left: 480px;
+  top: 2620px;
+  font-size: 20px;
+}
+.tonlésap {
+  position: absolute;
+  left:990px;
+  top:2620px;
+  font-size: 20px;
+}
+#pp {
+  width: 508px;
+  height: 320px;
+  border: 3px black solid;
+}
+#kohrong {
+  width:510px;
+  height: 320px;
+  border:3px black solid;
+}
+.pp {
+  position:absolute;
+  left:460px;
+  top:3145px;
+  font-size: 20px;
+}
+.kohrong {
+  position:absolute;
+  left: 975px;
+  top: 3145px;
+  font-size: 20px;
+}
+#battambang {
+  width:520px;
+  height: 320px;
+  border: 3px black solid;
+  position: absolute;
+  left: 535px;
+  top: 3170px;
+}
+.battambang {
+  position: absolute;
+  left:750px;
+  top: 3492px;
+  font-size:20px;
+}
