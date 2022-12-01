@@ -1,0 +1,209 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.italie {
+    background-color: #DEB887;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*corps de la page*/
+#global
+{
+  margin:800px;
+  margin:auto;
+
+  
+}
+#page
+{
+  border:10px #DEB887 solid;
+  background:wheat;
+  height: 1000px;
+  width: 99%;
+  margin-left: 1%;
+  opacity: 70%;
+}
+#corps
+{
+  padding:5px;
+}
+/*Fin premiere partie corps*/
+
+#general
+{
+  margin:400px;
+  margin:auto;
+  
+}
+#cadre
+{
+  border:10px #DEB887 solid;
+  background:#FFDEAD;
+  height: 1000px;
+  width: 99%;
+  margin-left: 0%;
+  opacity: 70%;
+}
+#contenue
+{
+  padding:5px;
+}
+
+
+#entier{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*Fin du corps*/
+
+/*Titre et animation titre */
+.titre{
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+    
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+/* fin titre et animation titre */
+
+
+  .drapeau {
+    opacity: 1;
+    padding-top: 100px;
+    float:left;
+
+  }
+  #chiffre{
+    padding-left: 10px;
+    padding-top: 100px;
+  }
+
+
+
+
+
+
+/* squelette et animation cadre */
+
+  body {
+    padding: 32px;
+  }
+  .box {
+    width: 650px;
+    height: 100px;
+    background:#FAEBD7;
+    padding: 8px;
+    display: grid;
+    place-content: center;
+    color: black;
+    text-align: center;
+    border-style: groove;
+    border-color: #DEB887;
+  }
+
+
+  .box2 {
+    width: 660px;
+    height: 100px;
+    background:#FAEBD7;
+    padding: 15px;
+    display: grid;
+    place-content: center;
+    color: black;
+    text-align: center;
+    border-style:groove;
+    border-color: antiquewhite;
+  }
+  @keyframes drop-in {
+    from {
+      transform:
+        rotate(90deg) translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform:
+        rotate(0deg) translateY(0%);
+      opacity: 100%;
+    }
+  }
+
+  .box {
+    animation: drop-in 2s;
+  }
+
+
+
+  @keyframes drop-in {
+    from {
+      transform:
+        rotate(90deg) translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform:
+        rotate(0deg) translateY(0%);
+      opacity: 100%;
+    }
+  }
+
+  .box2 {
+    animation: drop-in 2s;
+  }
+  /* fin squelette et animation texte */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*animation image*/
+
+.zoom img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+.zoom :hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+#image{
+  height: 196px;
+  width: 280px;
+  padding-top: 10px;
+}
+.zoom{
+  display: flex;
+  align-items:center;
+  flex-direction: row;
+  justify-content:space-evenly;
+
+}
+/* fin animation image */
+
