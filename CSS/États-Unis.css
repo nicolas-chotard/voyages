@@ -1,12 +1,13 @@
+
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .etats-unis {
-  background-color: black;
-  background-image: url(https://s2.best-wallpaper.net/wallpaper/1920x1080/1307/Monument-Valley-desert-rocks-Utah-Arizona-USA_1920x1080.jpg);
-  
-      
+  background-image: url(https://wallpapercave.com/wp/wp3329848.jpg);
+ background-color: black;
+ background-size: cover;
+ background-repeat: no-repeat;
 }
 
 #global
