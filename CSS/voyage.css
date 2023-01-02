@@ -193,6 +193,8 @@
 
       .carte{
         margin: 150px;
+        width: 0%;
+        height: 0%;
       }
 
       .États-Uniscambodge{
@@ -228,5 +230,146 @@
         text-align: center;
         
       }
+
+
+      @media all and (max-device-width: 426px){
+        
+        
+        .titre{
+          font-family: Verdana, Geneva, Tahoma, sans-serif ;
+          text-align: center;
+          font-size: 50px;
+          
+        }
+  
+        .titre2 {
+          font-size: 30px;
+          text-align: center;
+          
+        }
+        
+        
+        html,body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, Helvetica, Sans-serif;
+        }
+      
+        .footer {
+          width: 115%;
+          position: relative;
+          height: auto;
+          background-color: #070617;
+          display: flex;
+          align-items:flex-start;
+          flex-direction: column;
+        }
+        
+        
+      
+        #logovoyage{
+          width: 300px;
+          height: 70px;
+          }
+
+          .États-Uniscambodge{
+            width: 300px;
+            height: 160px;
+            align-items: center;
+            display: inline-flex;
+            flex-direction: row;
+            padding-left: 50px;
+            margin-top: 100px;
+          }
+    
+          .italiegrece{
+            width: 300px;
+            height: 160px;
+            padding-left: 50px;
+            align-items: center;
+            display: inline-flex;
+            flex-direction: row;
+            margin-top: 100px;
+          }
+
+          .Erythrée{
+            width: 300px;
+            height: 160px;
+            padding-left: 50px;
+           
+          }
+
+      }
+
+      @media (427px <= width <= 768px) {
+
+        .titre{
+          font-family: Verdana, Geneva, Tahoma, sans-serif ;
+          text-align: center;
+          font-size: 50px;
+          
+        }
+  
+        .titre2 {
+          font-size: 30px;
+          text-align: center;
+          
+        }
+        
+        
+        html,body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, Helvetica, Sans-serif;
+        }
+      
+        .footer {
+          width: 100%;
+          position: relative;
+          height: auto;
+          background-color: #070617;
+          display: flex;
+          align-items:flex-start;
+          flex-direction: column;
+        }
+        
+        
+      
+        #logovoyage{
+          width: 300px;
+          height: 70px;
+          }
+
+          .États-Uniscambodge{
+            width: 300px;
+            height: 160px;
+            align-items: center;
+            display: inline-flex;
+            flex-direction: row;
+            padding-left: 50px;
+            margin-top: 100px;
+          }
+    
+          .italiegrece{
+            width: 300px;
+            height: 160px;
+            padding-left: 50px;
+            align-items: center;
+            display: inline-flex;
+            flex-direction: row;
+            margin-top: 100px;
+          }
+
+          .Erythrée{
+            width: 300px;
+            height: 160px;
+            padding-left: 50px;
+           
+          }
+
+      }
+
+      
+      
 
       
